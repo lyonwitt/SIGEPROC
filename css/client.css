@@ -1,0 +1,21 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 991px) {
+    .table-cli h6 {
+        font-size: 9.5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .table-cli i {
+        font-size: 12px;
+    }
+}

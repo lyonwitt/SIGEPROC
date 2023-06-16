@@ -1,0 +1,8 @@
+select {
+    width: auto !important;
+}
+
+select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}

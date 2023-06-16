@@ -1,0 +1,53 @@
+body {
+    background-image: url("../img/bg-login.jpg");
+    overflow-x: hidden;
+}
+
+.container .text-login {
+    background: #777;
+    width: 80px;
+}
+
+.conteudo {
+    width: 100vw;
+}
+
+.text-muted {
+    color: #AAA !important;
+}
+
+.conteudo .area-login {
+    background: transparent;
+    max-width: 500px;
+    border-radius: 5px;
+    border: solid 2px #777;
+}
+
+.conteudo .area-login .input-group input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.conteudo .area-login .input-group i.text-muted {
+    font-size: 18px; 
+    color: #018484 !important;
+}
+
+.conteudo .area-login button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.conteudo .area-login button.btn-primary {
+    background-color: #007272 !important;
+    border: none;
+}
+
+.conteudo .area-login button.btn-primary:hover {
+    opacity: 0.5;
+}
+
+.conteudo .area-login a:hover {
+    opacity: 0.2;
+}
+

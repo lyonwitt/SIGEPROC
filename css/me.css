@@ -1,0 +1,28 @@
+body {
+    background: #DDD !important;
+}
+
+.fa-bars {
+    font-size: 25px;
+}
+
+.menu-lateral {
+    width: 170px;
+    min-height: 100vh;
+}
+
+.alert {
+    height: 50px;
+}
+
+.card .bg-warning {
+    background: rgba(18, 100, 176, 0.15) !important;
+}
+
+.card .bg-success {
+    background: rgba(190, 156, 19, 0.3) !important;
+}
+
+.nav-item.bg-info {
+    background: rgba(169, 213, 255, 0.3) !important;
+}
