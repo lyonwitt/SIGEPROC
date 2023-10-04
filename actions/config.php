@@ -1,6 +1,6 @@
 <?php
 
-$conexao = mysqli_connect("127.0.0.1", "root", "vertrigo", "sigeproc");
+$conexao = mysqli_connect("localhost", "u664932036_frazao", "Frazao2023@vivifer#", "u664932036_frazao");
  
 if (!$conexao) {
     echo "Error: Falha ao conectar-se com o banco de dados MySQL." . PHP_EOL;
