@@ -138,6 +138,10 @@ if ($id_user == 3) {
                     $fat_total = substr_replace($fat_total, ',', -2, 0);
                 }
             } while ($row = mysqli_fetch_assoc($result));
+        } elseif ($mes_ref == '' || $ano_ref = '') {
+            echo "<script>alert('Não há relatório para o mês/ano de referência!'); location.href='../pages/relatorio'</script>";
+        } elseif ($total == 0) {
+            echo "<script>alert('Não há relatório para o mês/ano de referência!'); location.href='../pages/relatorio'</script>";
         }
         ?>
         <div class='d-flex aligm-itens-center justify-content-between bg-transparent text-primary mt-3'>
