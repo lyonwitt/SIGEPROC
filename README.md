@@ -5,4 +5,4 @@ O Projeto do SIGEPROC foi criado com o intuito de fornecer a um cliente o contro
 ## Visualize o projeto na íntegra:
 https://witt-dev.000webhostapp.com/SIGEPROC
 ## Login e Senha para testar o sistema
-Login: teste | Senha: testa
+Login: teste | Senha: teste
